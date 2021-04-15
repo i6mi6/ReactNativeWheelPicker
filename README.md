@@ -1,9 +1,8 @@
-# React native wheel picker V2
+# React native wheel picker V3
 
 <p>
-<img src="http://img.shields.io/npm/v/react-native-wheel-picker-android.svg" />
-<img src="https://img.shields.io/npm/dm/react-native-wheel-picker-android.svg" />
-<img src="https://img.shields.io/npm/dt/react-native-wheel-picker-android.svg" />
+<img src="http://img.shields.io/npm/v/@hortau/react-native-wheel-picker-android.svg" />
+<img src="https://img.shields.io/npm/dt/@hortau/react-native-wheel-picker-android.svg" />
 </p>
 
 A simple Wheel Picker for Android (For IOs is using Picker from react-native)
@@ -14,7 +13,7 @@ You can clone the repo and run example from ./example folder
 
 ## Installation
 
-`yarn add react-native-wheel-picker-android`
+`yarn add @hortau/react-native-wheel-picker-android`
 
 ![](./src/assets/pickerAndroid.gif)
 ![](./src/assets/pickerIos.gif)
@@ -29,7 +28,7 @@ In `android/settings.gradle`
 
 ```
 include ':react-native-wheel-picker-android'
-project(':react-native-wheel-picker-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wheel-picker-android/android')
+project(':react-native-wheel-picker-android').projectDir = new File(rootProject.projectDir, '../node_modules/@hortau/react-native-wheel-picker-android/android')
 ```
 
 In `android/app/build.gradle`
@@ -57,7 +56,7 @@ import {
   WheelPicker,
   TimePicker,
   DatePicker
-} from "react-native-wheel-picker-android";
+} from "@hortau/react-native-wheel-picker-android";
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, Button } from "react-native";
 
@@ -181,4 +180,4 @@ onDateSelected = date => {}
 
 ## Questions or suggestions?
 
-Feel free to [open an issue](https://github.com/ElekenAgency/ReactNativeWheelPicker/issues)
+Feel free to [open an issue](https://github.com/Cero-Studio/ReactNativeWheelPicker/issues)
