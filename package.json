@@ -1,6 +1,6 @@
 {
   "name": "@hortau/react-native-wheel-picker-android",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Simple Wheel Picker for Android to use with react-native",
   "main": "index.tsx",
   "repository": {
