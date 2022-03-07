@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/Cero-Studio/ReactNativeWheelPicker",
   "dependencies": {
-    "@react-native-picker/picker": "^1.15.0",
-    "@react-native-community/datetimepicker" : "^3.4.3",
-    "moment": "^2.24.0"
+    "@react-native-picker/picker": "^2.3.1",
+    "@react-native-community/datetimepicker": "^5.1.0",
+    "moment": "^2.29.1"
   }
 }
