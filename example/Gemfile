@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+# Enforce specific version of cocoapods due to the incompatibilities found with the graph pod library
+gem 'cocoapods', '~> 1.11', '= 1.11.3'

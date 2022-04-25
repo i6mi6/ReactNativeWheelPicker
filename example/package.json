@@ -10,15 +10,15 @@
     "lint": "eslint .",
     "pod:install": "pushd ios && pod install && popd",
     "purge:android": "(cd android && ./gradlew --stop) && rm -rf ~/.gradle/caches android/app/build",
-    "purge:ios": "rm -rf ios/Pods ios/build ~/Library/Caches/CocoaPods ~/Library/Developer/Xcode/DerivedData && pod cache clean --all",
-    "purge:js": "rm -rf node_modules && watchman watch-del-all"
+    "purge:ios": "rm -rf ios/Pods ios/build ~/Library/Caches/CocoaPods ~/Library/Developer/Xcode/DerivedData && pushd ios && pod cache clean --all && popd",
+    "purge:js": "watchman watch-del-all && killall -9 node && rm -rf node_modules && npm cache verify"
   },
   "dependencies": {
     "moment": "^2.29.1",
     "react": "17.0.2",
     "react-native": "0.66.4",
-    "@react-native-picker/picker": "^2.3.1",
-    "@react-native-community/datetimepicker": "^5.1.0",
+    "@react-native-picker/picker": "^2.4.1",
+    "@react-native-community/datetimepicker": "^6.1.2",
     "@hortau/react-native-wheel-picker-android": "../"
   },
   "devDependencies": {

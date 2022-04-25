@@ -14,7 +14,7 @@ const DatePicker: React.FC<Props> = props => {
   return (
     <View pointerEvents={disabled ? "none" : "auto"}>
       <RNDateTimePicker
-          value={date}
+        value={date}
         onChange={(event, date) => {
           if (onDateSelected) onDateSelected(date)
           setDate(date)

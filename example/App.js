@@ -9,6 +9,7 @@
 import React, {useState} from 'react';
 import type {Node} from 'react';
 import {
+  Platform,
   SafeAreaView,
   ScrollView,
   Text,
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
   picker: {
-    width: 90,
+    width: Platform.OS === 'ios' ? 'auto' : 90,
     height: 200,
   },
   weekdays: {

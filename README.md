@@ -10,6 +10,8 @@ A simple Wheel Picker for Android (For IOs is using Picker from react-native)
 ## Example
 
 You can clone the repo and run example from ./example folder
+    
+    yarn install
 
 ## Installation
 
