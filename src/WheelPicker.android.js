@@ -11,6 +11,7 @@ const WheelPickerView = requireNativeComponent('WheelPicker', null)
 type Props = {
   data: Array<string>,
   isCyclic?: boolean,
+  initPosition: number,
   selectedItemTextColor?: string,
   selectedItemTextSize?: number,
   indicatorWidth?: number,
