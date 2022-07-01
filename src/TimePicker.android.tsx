@@ -19,7 +19,7 @@ type Event = {
 
 type Props = {
   initDate: string,
-  onTimeSelected: Date => void,
+  onTimeSelected: () => void,
   hours: Array<number>,
   minutes: Array<string>,
   format24: boolean,
