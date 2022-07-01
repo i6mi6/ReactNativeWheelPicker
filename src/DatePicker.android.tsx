@@ -23,7 +23,7 @@ type Props = {
   initDate: string,
   hours: Array<number>,
   minutes: Array<string>,
-  onDateSelected: Date => void,
+  onDateSelected: () => void,
   startDate: string,
   daysCount: number,
   days: Array<number>,
